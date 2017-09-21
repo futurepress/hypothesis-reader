@@ -1,0 +1,27 @@
+{
+  "name": "hypothesis-reader",
+  "version": "0.0.1",
+  "description": "EPUB.js + Hypothesis Reader",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/http-server/bin/http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/futurepress/hypothesis-reader.git"
+  },
+  "author": "Fred Chasen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/futurepress/hypothesis-reader/issues"
+  },
+  "homepage": "https://github.com/futurepress/hypothesis-reader#readme",
+  "dependencies": {
+    "epubjs": "^0.3.52",
+    "jszip": "^3.1.4"
+  },
+  "devDependencies": {
+    "http-server": "^0.10.0"
+  }
+}
