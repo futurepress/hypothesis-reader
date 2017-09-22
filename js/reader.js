@@ -5,7 +5,11 @@
     var url = params && params.get("url") && decodeURIComponent(params.get("url"));
 
     // Load the opf
-    var book = ePub(url || "https://cdn.hypothes.is/demos/epub/content/moby-dick/book.epub");
+    var book = ePub(url || "https://cdn.hypothes.is/demos/epub/content/moby-dick/book.epub", {
+      canonical: function(path) {
+        return window.location.origin + window.location.pathname + "?loc=" + path;
+      }
+    });
     var rendition = book.renderTo("viewer", {
       ignoreClass: "annotator-hl",
       width: "100%",

@@ -1,6 +1,6 @@
 {
   "name": "hypothesis-reader",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "EPUB.js + Hypothesis Reader",
   "main": "index.html",
   "scripts": {
@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/futurepress/hypothesis-reader#readme",
   "dependencies": {
-    "epubjs": "^0.3.52",
+    "epubjs": "^0.3.53",
     "jszip": "^3.1.4"
   },
   "devDependencies": {
